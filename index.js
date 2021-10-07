@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 // const aesjs = require('aes-js')
-const cryptos = require('crypto-js')
+// const cryptos = require('crypto-js')
 // const newcipher = require('aes-ecb')
 const fs = require('fs')
 
