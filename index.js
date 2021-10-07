@@ -25,6 +25,7 @@ const testIciciEncryption = async ()=> {
   let apiResponse  = await axios.post('https://api.icicibank.com:8443/api/Corporate/CIB/v1/BalanceInquiry',"bdel0nvEXJZz+JfL0yh+7Fu3FbY8tShl7BWmHBLjVUfQSnWBH13bzqer1HEz6qMBiPnrRjSAKXhRocykuuO/ANVH1MW0YZTEdNKgF/Xmzj+GYMeOl/lxrhp/1cRzmEyTs2Zte6PA8HG/2uDzsFGEqjRNJ1IyhZB+xCt3zHWzpIbPsg8UyqkyPSrh0RMVlJjeaehO36U5onjuJfMv8eSN+8M6yVXUqfa9p580447b5hxcpkycAVjSHTcHv+2omi8Tsb2tpGhZ/ypgjk24WTHByPo3LWKa6rwhVrtzY+vSFXOs+nMhkiXSC9qUIOM91ZpV+TCzq7tsg2iWXyG1CmaIA0rotOjpq6u7vK/W/itgvsLwvtJStoaRZ96Ezj1Eqqy5PI4LPq2XW0Rk29UJRbslXAVdwCKYRbtYZKoTVoCb55CvaEvnCdDC3/fj4hzCO15U9yJ4AZ4cWk4FfHravS4VOWqSZt3S4iB9naql5ixEBS9zSQgg8Nm/O3vhOkDabtjTNs7AtOH63MrDrSj4Ipi4B/Xcpd2ctA9zCAKMoOFQBEuCmR/Hm50kRJZmI6EYACwgnaUjrqzVM4r+TGj5+QE4mlntU4sFDPGPAtMTjU58Y7RQnu8W6YFmfGgzxBpY9gmFT+piiM0mO3TBrnjZA1AdgE2cSGaRqEAplATYdcdo+Qo=",
     {headers:{apikey:"a42e15f1fe7343319db0f4068a8a373a"}})
   console.log("apiResponse---",apiResponse)
+  
 }
 
 testIciciEncryption()
