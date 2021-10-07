@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-crypto.js@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/crypto.js/-/crypto.js-2.0.5.tgz#2bb707739d35b4a77675ca90f7bb72969e786f6a"
-  integrity sha512-ZCBe4d4Yvs/TqPgzc9tIy2FhAFJ+gK5a8eteFGCeaNW9DNHmzB8cBty7i+CBpZloi89DXJ5Vx+NHFEFrz6XUQg==
+crypto-js@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
+  integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
 
 crypto@^1.0.1:
   version "1.0.1"
