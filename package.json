@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/rathish1997/icici_node#readme",
   "dependencies": {
+    "axios": "^0.22.0",
     "crypto": "^1.0.1",
-    "crypto-js": "^4.1.1"
+    "crypto-js": "^4.0.0"
   }
 }
