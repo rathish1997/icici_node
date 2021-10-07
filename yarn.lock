@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+crypto.js@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/crypto.js/-/crypto.js-2.0.5.tgz#2bb707739d35b4a77675ca90f7bb72969e786f6a"
+  integrity sha512-ZCBe4d4Yvs/TqPgzc9tIy2FhAFJ+gK5a8eteFGCeaNW9DNHmzB8cBty7i+CBpZloi89DXJ5Vx+NHFEFrz6XUQg==
+
 crypto@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/crypto/-/crypto-1.0.1.tgz#2af1b7cad8175d24c8a1b0778255794a21803037"
