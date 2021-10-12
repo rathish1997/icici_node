@@ -6,7 +6,7 @@ const axios = require('axios')
 
 const testIciciEncryption = async ()=> {
   //let hh = {"AGGRID":"CUST0207","CORPID":"575731824","USERID":"VASANTHD","URN":"SR184416205","ACCOUNTNO":"190105000963"}
-  let hh = {"AGGRID":"CUST0207","CORPID":"575731824","USERID":"VASANTHD","URN":"SR184416205","UNIQUEID":"21145781"}
+  let hh = {"AGGRID":"CUST0207","CORPID":"572507578","USERID":"VASANTHD","URN":"SR184416205","UNIQUEID":"21145781"}
 // let hh = "hello"
   let publicKey = mCrypto.createPublicKey(fs.readFileSync(__dirname + '/publicCertificate.crt'))
   let binaryDataa = Buffer.from(JSON.stringify(hh))
